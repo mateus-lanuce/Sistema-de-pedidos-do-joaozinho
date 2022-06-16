@@ -98,6 +98,8 @@ int main() {
 		std::cout << "Erro ao criar o arquivo de Estoque";
 	}
 
+
+	delete[] Estoque.vetDinamicProducts;
     return 0;
 }
 
